@@ -25,7 +25,7 @@ public class UsuarioService {
 	@Autowired
     private JwtService jwtService;
 
-    @Autowired
+    @Autowired 
     private AuthenticationManager authenticationManager;
 
 	public Optional<Usuario> cadastrarUsuario(Usuario usuario) {
